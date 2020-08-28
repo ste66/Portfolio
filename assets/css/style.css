@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;400;700&family=Nanum+Gothic:wght@400;700&display=swap');
+
+:root {
+    font-size: 62.5%;    
+}
+
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+* {
+    padding: o;
+    margin: o;
+    box-sizing: border-box;
+}
+/* Navigation */
+nav {
+    background: #f5f5f5;
+    height: 60px;
+    text-align: center;
+}
+nav a {
+    padding: 0.5rem 1rem;
+    margin: 0  1rem;
+    font-size: 2rem;
+    text-decoration:none;
+    line-height:60px;
+    color: black;
+    font-family: 'Mukta', sans-serif; 
+    font-weight: 700;
+}
+
+nav a:hover {
+    color: #898989;  
+}
+
+/* Hope page main part*/
+
+main {
+    margin:10px;
+    padding: 10px;
+    text-align: center;
+}
+
+main img {
+    padding: 20px;
+
+}
+
+main div {
+    margin: 30px 0;
+}
+
+main div h1 {
+    font-size: 3rem;
+    text-shadow: 1px 1px 5px rgb(5, 70, 235)
+}
+
+main div p {
+    font-size: 1.5rem;
+    padding: 40px 0;
+}
+
+main div.home-content a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 10px 50px;
+    background-color: #0bc9eb;
+    border-radius: 20px;
+    color:white;
+}
+
+main div.home-content a:hover {
+    color: #0bc9eb;
+    background-color: white;
+    border: 1px solid #0bc9eb;
+}
